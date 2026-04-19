@@ -17,7 +17,7 @@ public class App {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
 
-        options.setBinary("/snap/bin/firefox");
+        options.setBinary("/usr/bin/firefox");
 
         WebDriver driver = new FirefoxDriver(options);
 
